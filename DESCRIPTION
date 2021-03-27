@@ -1,7 +1,7 @@
 Package: SLBDD
 Type: Package
 Title: Statistical Learning for Big Dependent Data
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(person("Angela", "Caro", email = "", role = c("aut")),
             person("Antonio", "Elias", email = "antonioefz91@gmail.com", role = c("aut", "cre")),
             person("Daniel", "Peña", email = "", role = c("aut")),
@@ -11,16 +11,17 @@ Description: Programs for analyzing large-scale time series data. They include f
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: xz
 RoxygenNote: 7.1.1
 Depends: R (>= 3.5.0)
 Imports: stats, glmnet, corpcor, forecast, gsarima, cluster, fGarch,
         imputeTS, methods, MASS, MTS, TSclust, tsoutliers, Matrix,
         matrixcalc, rnn
 NeedsCompilation: no
-Packaged: 2021-02-12 17:35:54 UTC; anton
+Packaged: 2021-03-25 20:23:00 UTC; anton
 Author: Angela Caro [aut],
   Antonio Elias [aut, cre],
   Daniel Peña [aut],
   Ruey S. Tsay [aut]
 Repository: CRAN
-Date/Publication: 2021-02-16 10:10:06 UTC
+Date/Publication: 2021-03-27 08:00:02 UTC
