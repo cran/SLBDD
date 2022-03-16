@@ -12,7 +12,7 @@
 #'
 #' @keywords datasets
 #'
-#' @source \href{http://www.crsp.org}{http://www.crsp.org}
+#' @source \href{https://www.crsp.org/}{https://www.crsp.org/}
 #'
 "mdec1to5"
 

@@ -8,7 +8,7 @@
 An object of class \code{"data.frame"}.
 }
 \source{
-\href{http://www.crsp.org}{http://www.crsp.org}
+\href{https://www.crsp.org/}{https://www.crsp.org/}
 }
 \usage{
 data("mdec1to5")
