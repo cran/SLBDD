@@ -1,11 +1,12 @@
-be9ed956308cf899ccd191331d866f0f *DESCRIPTION
+a735dc495d30e66fe3864f052ede0f8c *DESCRIPTION
 c68b9e91733146cdf7c92841d9e1fba0 *NAMESPACE
-8903fdb2ddd0ef48374599d9158a3f17 *NEWS.md
+a89866ac070cc5c1c1e3e2a86183deb7 *NEWS.md
 cc66392e1ad5e0263b2cf77f39966220 *R/CPIEurope200015-data.R
 4797f7aa8af729d5fccf39f507938dc6 *R/DFMPC.R
 c1a0a0378889c700b39939aa266dab21 *R/DLdata.R
 9b7eeaa3ff4b4c196c038856c8dc81f2 *R/EDQplot.R
 8dddc1c0d1d88e9d93db73df5b3bfb11 *R/EDQts.R
+753e4f2e387647d21228c40571ebd376 *R/FREDMDApril19.R
 57ef74d76d9ca812b031037e7e1fa456 *R/GCCclus.R
 a94f2471bdba905fea91bb074b1953b6 *R/GCCmatrix.R
 61c2873ab911f1fd3ddb7894640984d2 *R/Lambda.sel.R
@@ -15,7 +16,7 @@ da1004cdca5722073d88114977abb107 *R/Stockindexes99world-data.R
 484bbc8d000f1f191f5a29681b0d0c4c *R/TaiwanPM25-data.R
 5914bb077bb97ff4c330570811bdefbe *R/UMEdata20002018-data.R
 733f4f53bebe1fa8dd246d193a16452a *R/arimaID.R
-f83ec2e96cd28c29c296345433a27518 *R/arimaSpec.R
+57e761766a241ba06e947907ecce6e8c *R/arimaSpec.R
 a2f3e49b527e61b51608b0c64ac2c3cb *R/chksea.R
 d96a2a80cb0da8bf70311d2df0538ba6 *R/chktrans.R
 9c5e6c5041ee33867527b25770e236a5 *R/clothing-data.R
@@ -37,7 +38,7 @@ f84612d5cfe17a2365143a4432268616 *R/outlier.plot.R
 971e77cdc07aa04d28b82e7cca53e944 *R/quantilebox.R
 b609872455ce261c5eb9501cda8f36cd *R/rnnStream.R
 8c4e33b923e236f1ca121033f0e1aee4 *R/sSelectedSeries.R
-45189956cf354cd405c9956a4908aea3 *R/sarimaSpec.R
+0c25c5e9f06e60be671989978d7e5b58 *R/sarimaSpec.R
 870707201c0121788dd63e7efcc5d1b4 *R/scatterACF.R
 cc0341f4db22803807fed4a7cc552bd1 *R/selectedseries.R
 32e347ec703c4be7290d79822ebce2d1 *R/silh.clus.R
@@ -51,13 +52,14 @@ d30d36ce21e91d0fafe1fb84003ac8be *R/summarymodel.R
 c45c008466b1081bd773b11af246e634 *R/tsBoost.R
 b5f732c5190e2de439567ddf82e4622a *R/tsBox.R
 c5b71856bae3d4ec75c053872020cff3 *data/CPIEurope200015.rda
+84374349a285f7a965880b17818335ff *data/FREDMDApril19.rda
 da0e0473ceca1e040c54a7ac91ddc152 *data/PElectricity1344.rda
 ecb70d3d8237cfafc599a73045c9e075 *data/Stockindexes99world.rda
 d2d600f8dd7fd79b9d5289507c2fff1e *data/TaiwanAirBox032017.rda
 396b6a060b2bd8bf3fb615fed6879216 *data/TaiwanPM25.rda
 8e12d491492a91ec235867750d01ffef *data/UMEdata20002018.rda
 99f7aa261f8d4e525a5e6b5f3efba58f *data/clothing.rda
-58d6a8890b430edda93802fa53baf0dd *data/datalist
+7c67d6140e8b2e86c0a2aa3a59987d07 *data/datalist
 d408f708e4c769bcf1ff09dfea476a6a *data/gdpsimple6c8018.rda
 3b47511df3a38beb7b8bc097e8dd9259 *data/locations032017.rda
 5ba41f7fd4aa430e24f156eeceb1b261 *data/mdec1to5.rda
@@ -66,6 +68,7 @@ d3b86a6d9aa72bd7969de0ba88dd22b7 *data/temperatures.rda
 302662e60043698a586dc150dabcb3fd *man/CPIEurope200015.Rd
 3b27d183ef795436dff585c69b0fa430 *man/ClusKur.Rd
 c635c00c45f30b2b5016a2e77b955cce *man/DLdata.Rd
+c4a6a948f136049e41fd4d8816aceb1a *man/FREDMDApril19.Rd
 b8c5e195e0c25818276490c025cb7e00 *man/GCCclus.Rd
 02beb19bd95ff3b74e3a3aba30d7fc1b *man/GCCmatrix.Rd
 fa9839ef70ae14c9deb78c1eb04d98e8 *man/Lambda.sel.Rd

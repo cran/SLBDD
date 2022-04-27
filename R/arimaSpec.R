@@ -105,13 +105,13 @@
         if((i+j) > 0){
           m1 <- try(suppressWarnings(arima(dzt,order=c(i,0,j),include.mean=include.mean,method=method)), silent = TRUE)
 
-          if(class(m1) == "try-error" & grepl("system is computationally singular", m1)){
+          if(as.character(class(m1)) == "try-error" & grepl("system is computationally singular", as.character(class(m1)))){
             warning("To avoid optimization problems the data has been scaled to zero mean and unit variance.", call. = FALSE)
             dzt <- scale(dzt)
             m1 <- suppressWarnings(arima(dzt,order=c(i,0,j),include.mean=include.mean,method=method))
           }
 
-          if(class(m1) == "try-error" & grepl("non-stationary AR part from CSS", m1)){
+          if(as.character(class(m1)) == "try-error" & grepl("non-stationary AR part from CSS", as.character(class(m1)))){
             next
           } else {
             s1 <- sqrt(var(m1$residuals))

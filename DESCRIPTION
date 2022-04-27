@@ -1,7 +1,7 @@
 Package: SLBDD
 Type: Package
 Title: Statistical Learning for Big Dependent Data
-Version: 0.0.3
+Version: 0.0.4
 Authors@R: c(person("Angela", "Caro", email = "", role = c("aut")),
             person("Antonio", "Elias", email = "antonioefz91@gmail.com", role = c("aut", "cre")),
             person("Daniel", "Peña", email = "", role = c("aut")),
@@ -18,10 +18,10 @@ Imports: stats, glmnet, corpcor, forecast, gsarima, cluster, fGarch,
         imputeTS, methods, MASS, MTS, TSclust, tsoutliers, Matrix,
         matrixcalc, rnn
 NeedsCompilation: no
-Packaged: 2022-03-16 05:32:40 UTC; anton
+Packaged: 2022-04-26 05:34:12 UTC; anton
 Author: Angela Caro [aut],
   Antonio Elias [aut, cre],
   Daniel Peña [aut],
   Ruey S. Tsay [aut]
 Repository: CRAN
-Date/Publication: 2022-03-16 09:10:02 UTC
+Date/Publication: 2022-04-27 11:20:05 UTC
